@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 5a2416ab5be69cc4e8adcbec0801a8c0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: yaman_run_with_gas_lamb_0
+    21300002: yaman_run_with_gas_lamb_1
+    21300004: yaman_run_with_gas_lamb_2
+    21300006: yaman_run_with_gas_lamb_3
+    21300008: yaman_run_with_gas_lamb_4
+    21300010: yaman_run_with_gas_lamb_5
+    21300012: yaman_run_with_gas_lamb_6
+    21300014: yaman_run_with_gas_lamb_7
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yaman_run_with_gas_lamb_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.40384614, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0d5041c95dafe4693a5bb2e34a2943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_run_with_gas_lamb_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1
+        width: 25
+        height: 31
+      alignment: 9
+      pivot: {x: 0.40384614, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0381bd426865134ebd7a3b7774b736b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_run_with_gas_lamb_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1
+        width: 24
+        height: 33
+      alignment: 9
+      pivot: {x: 0.40384614, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16499d7dd0ec3cc40b5470fc54b853c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_run_with_gas_lamb_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 4
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.40384614, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99112e89dc1fc654a91bdd5d3ea9d0bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_run_with_gas_lamb_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 24
+        height: 35
+      alignment: 9
+      pivot: {x: 0.40384614, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0118544ff3e00d4469d1a1b280286387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_run_with_gas_lamb_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1
+        width: 25
+        height: 34
+      alignment: 9
+      pivot: {x: 0.40384614, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef33e13de169f184ca62f79e82bdba5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_run_with_gas_lamb_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1
+        width: 25
+        height: 33
+      alignment: 9
+      pivot: {x: 0.40384614, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c5c17f17e901b42b66e38767bba4e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_run_with_gas_lamb_7
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 4
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: 0.40384614, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5770a440fc20b64ab44759f551a696f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 91373409dfb480346b6a654184d9f6c3
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

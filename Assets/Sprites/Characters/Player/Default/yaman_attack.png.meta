@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: 4ccad0fb9011d7240ac7b133cad0ce1b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: yaman_attack_0
+    21300002: yaman_attack_1
+    21300004: yaman_attack_2
+    21300006: yaman_attack_3
+    21300008: yaman_attack_4
+    21300010: yaman_attack_5
+    21300012: yaman_attack_6
+    21300014: yaman_attack_7
+    21300016: yaman_attack_8
+    21300018: yaman_attack_9
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yaman_attack_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 48
+        width: 19
+        height: 39
+      alignment: 9
+      pivot: {x: 0.551, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f892b2e933a75a4fa7ca4fe09a1a419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 48
+        width: 19
+        height: 39
+      alignment: 9
+      pivot: {x: 0.551, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8066b94367a7a5543b8fe3c95bfc43c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 47
+        width: 22
+        height: 39
+      alignment: 9
+      pivot: {x: 0.433, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b050994fbab3946866cf747cd8a3aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 47
+        width: 26
+        height: 39
+      alignment: 9
+      pivot: {x: 0.25, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb4ac601f410ec4c8fada05ee4cd4c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 48
+        width: 19
+        height: 39
+      alignment: 9
+      pivot: {x: 0.45, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea31704ab4cfb8499985c2b24c9848d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 22
+        height: 39
+      alignment: 9
+      pivot: {x: 0.389, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003229bcfaa33364cb724ac8744e2f59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1
+        width: 25
+        height: 39
+      alignment: 9
+      pivot: {x: 0.381, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea207cc3402f01248ad652fe13acda20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 34
+        height: 39
+      alignment: 9
+      pivot: {x: 0.075, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6027de3da41743f4393d5a25cc6856ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2
+        width: 34
+        height: 39
+      alignment: 9
+      pivot: {x: 0.075, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46686cf36cb2c7e4798a315cd4ba1177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2
+        width: 34
+        height: 39
+      alignment: 9
+      pivot: {x: 0.105, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f718689df7861804aa84b1ef9c6ad65e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a396fccd16227c34da986ba34ee8d538
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: 7e51db98f00cf1f4bbf94c1dda53371a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: yaman_attack_with_gas_lamb_0
+    21300002: yaman_attack_with_gas_lamb_1
+    21300004: yaman_attack_with_gas_lamb_2
+    21300006: yaman_attack_with_gas_lamb_3
+    21300008: yaman_attack_with_gas_lamb_4
+    21300010: yaman_attack_with_gas_lamb_5
+    21300012: yaman_attack_with_gas_lamb_6
+    21300014: yaman_attack_with_gas_lamb_7
+    21300016: yaman_attack_with_gas_lamb_8
+    21300018: yaman_attack_with_gas_lamb_9
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yaman_attack_with_gas_lamb_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 27
+        height: 39
+      alignment: 9
+      pivot: {x: 0.315, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97bdfb968d498147b62e4f1e0d376e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_with_gas_lamb_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2
+        width: 27
+        height: 39
+      alignment: 9
+      pivot: {x: 0.2775, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e645f83922d36c4d89e15f091f86781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_with_gas_lamb_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 26
+        height: 39
+      alignment: 9
+      pivot: {x: 0.365, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1e12105ea16224eb10ddef4f617c3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_with_gas_lamb_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2
+        width: 26
+        height: 39
+      alignment: 9
+      pivot: {x: 0.1727, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e383d48e5f208854aaaf7b8f06d21a76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_with_gas_lamb_4
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1
+        width: 22
+        height: 39
+      alignment: 9
+      pivot: {x: 0.3405, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400d8c26dbf61ba4caa2a4acf1f5956c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_with_gas_lamb_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1
+        width: 22
+        height: 39
+      alignment: 9
+      pivot: {x: 0.386, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b62cf20b1031d842bc95939d5503591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_with_gas_lamb_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1
+        width: 25
+        height: 39
+      alignment: 9
+      pivot: {x: 0.3797, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9fef362896ea64d86898e1460747d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_with_gas_lamb_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1
+        width: 35
+        height: 39
+      alignment: 9
+      pivot: {x: 0.1, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2891f6a6df8e73d4998ac1f2bfeaa5ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_with_gas_lamb_8
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1
+        width: 34
+        height: 39
+      alignment: 9
+      pivot: {x: 0.0439, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a198e380c71de4f8290c1bc9ef1c65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaman_attack_with_gas_lamb_9
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2
+        width: 34
+        height: 39
+      alignment: 9
+      pivot: {x: 0.0734, y: 0.4487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e589548f6589ed409bef8fd799e6e9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9d1b630330c7d704c9eba48d7f759542
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
