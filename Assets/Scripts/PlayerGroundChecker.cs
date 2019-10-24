@@ -5,8 +5,9 @@ using UnityEngine;
 public class PlayerGroundChecker : MonoBehaviour {
 
 	private PlayerController player;
+    private BreakingWoodController _breakingWood;
 
-	private void Start() {
+    private void Start() {
 		player = gameObject.GetComponentInParent<PlayerController>();
 	}
 
@@ -14,11 +15,16 @@ public class PlayerGroundChecker : MonoBehaviour {
 		if (null == player) {
 			Start();
 		}
-		if (other.CompareTag("Ground") || other.CompareTag("Box") || other.CompareTag("Breakable") || other.CompareTag("Car")) {
-			player.grounded = true;
-			if (other.CompareTag("Car"))
-				player.inCar = true;
-		}
+        if (other.CompareTag("Ground") || other.CompareTag("Box") || other.CompareTag("Breakable") || other.CompareTag("Car") || other.CompareTag("BreakingWood"))
+        {
+            player.grounded = true;
+            if (other.CompareTag("Car"))
+                player.inCar = true;
+            if (other.CompareTag("BreakingWood")) { 
+                _breakingWood = other.GetComponent<BreakingWoodController>();
+                _breakingWood.StartAnim();
+            }
+        }
 	}
 
 	void OnTriggerStay2D(Collider2D other) {
@@ -34,7 +40,7 @@ public class PlayerGroundChecker : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
-		if (other.CompareTag("Ground") || other.CompareTag("Box") || other.CompareTag("Breakable") || other.CompareTag("Car")) {
+		if (other.CompareTag("Ground") || other.CompareTag("Box") || other.CompareTag("Breakable") || other.CompareTag("Car") || other.CompareTag("BreakingWood")) {
 			player.grounded = false;
 			if (other.CompareTag("Car"))
 				player.inCar = false;
