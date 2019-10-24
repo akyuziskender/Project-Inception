@@ -75,6 +75,11 @@ public class PlayerController : MonoBehaviour {
 		get { return maxSpeedStore; }
 	}
 
+	public Rigidbody2D Rb2D {
+		get { return rb2d; }
+		set { rb2d = value; }
+	}
+
 	// Use this for initialization
 	public void Start() {
         rb2d = gameObject.GetComponent<Rigidbody2D>();

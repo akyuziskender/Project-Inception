@@ -12,6 +12,7 @@ TagManager:
   - Car
   - Water
   - BreakingWood
+  - BouncySpring
   layers:
   - Default
   - TransparentFX

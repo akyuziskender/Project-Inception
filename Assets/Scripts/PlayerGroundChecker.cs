@@ -6,6 +6,7 @@ public class PlayerGroundChecker : MonoBehaviour {
 
 	private PlayerController player;
     private BreakingWoodController _breakingWood;
+	private BouncySpringController _bouncySpring;
 
     private void Start() {
 		player = gameObject.GetComponentInParent<PlayerController>();
@@ -15,7 +16,8 @@ public class PlayerGroundChecker : MonoBehaviour {
 		if (null == player) {
 			Start();
 		}
-        if (other.CompareTag("Ground") || other.CompareTag("Box") || other.CompareTag("Breakable") || other.CompareTag("Car") || other.CompareTag("BreakingWood"))
+        if (other.CompareTag("Ground") || other.CompareTag("Box") || other.CompareTag("Breakable") || 
+			other.CompareTag("Car") || other.CompareTag("BreakingWood") || other.CompareTag("BouncySpring"))
         {
             player.grounded = true;
             if (other.CompareTag("Car"))
@@ -24,6 +26,11 @@ public class PlayerGroundChecker : MonoBehaviour {
                 _breakingWood = other.GetComponent<BreakingWoodController>();
                 _breakingWood.StartAnim();
             }
+			if(other.CompareTag("BouncySpring") && player.Rb2D.velocity.y < 0) {
+				_bouncySpring = other.gameObject.GetComponent<BouncySpringController>();
+				_bouncySpring.Bounce = true;
+				player.grounded = false;
+			}
         }
 	}
 
