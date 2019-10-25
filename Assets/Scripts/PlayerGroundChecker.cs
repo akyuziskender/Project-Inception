@@ -19,11 +19,13 @@ public class PlayerGroundChecker : MonoBehaviour {
         if (other.CompareTag("Ground") || other.CompareTag("Box") || other.CompareTag("Breakable") || 
 			other.CompareTag("Car") || other.CompareTag("BreakingWood") || other.CompareTag("BouncySpring"))
         {
-            player.grounded = true;
-            if (other.CompareTag("Car"))
-                player.inCar = true;
-            if (other.CompareTag("BreakingWood")) { 
-                _breakingWood = other.GetComponent<BreakingWoodController>();
+			if (other.CompareTag("Car")) {
+				player.grounded = true;
+				player.inCar = true;
+			}
+            if (other.CompareTag("BreakingWood")) {
+				player.grounded = true;
+				_breakingWood = other.GetComponent<BreakingWoodController>();
                 _breakingWood.StartAnim();
             }
 			if(other.CompareTag("BouncySpring") && player.Rb2D.velocity.y < 0) {
